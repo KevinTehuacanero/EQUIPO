@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ <title>unidad 2 -Ejemplo 1</title>
+   </head>
+<body>
+
+
+<table border="2" align="CENTER" >
+   <tr><th>numero de control</th> <th>nombre</th><th>calificacion</th></tr>
+   <tr><td>18120099</td><td>RENE</td><td>6</td></tr>
+   <tr><td>1812055</td><td>JOSE</td><td>6</td></tr>
+   <tr><td>1812055</td><td>ANDRES</td><td>6</td></tr>
+   <tr><td>1812885</td><td>JUNIOR</td><td>6</td></tr>
+   <tr><td>1812055</td><td>TORRES</td><td>6</td></tr>
+</table>
+<!DOCTYPE html>
+<html>
+    <head>
+ <title>EQUIPO</title>
+   </head>
+<body>
+ <!--FORMULARIOS -->
+<form action="/paginaqueprocesalosdatos.php"method="POST">
+
+
+<label>nombre</label>
+<input id="nombre" type="text" required/>
+<br>
+<br>
+<label >apellido paterno:</label>
+<input id="paterno" type="text" required/>
+<br>
+<br>
+<label >apellido materno:</label>
+<input id="materno" type="text" required/>
+<br>
+<br>
+<label >contraseña</label>
+<input id="contraseña" type="password" placeholder="ingrese la contraseña" required/>
+<br>
+<br>
+
+<input id="enviar" type="submit" text="enviar datos"/>
+<hr>
+
+<input id="masculino" type="checkbox" text="masculino">MASCULINO</input> 
+<input id="femenino" type="checkbox" text="femenino">femenino</input> 
+<hr>
+
+<input id="ISC" type="radio" text="ISC" name="1">ISC</input> 
+<input id="ADMIN" type="radio" text="ADMIN" name="1">ADMIN</input> 
+<input id="INDUSTRIAL" type="radio" text="INDUSTRIAL" name="1">INDUSTRIAL</input> 
+<hr>
+<hr>
+<hr>
+
+<h4 style="height: 34; ">¿seleccione cual es tu buscador preferido?</h4>
+
+<input id="GOGLE" type="radio" text="GOGLE" name="1">GOGLE</input> 
+<input id="YAHOO" type="radio" text="YAHOO" name="1">YAHOO</input> 
+<input id="DUCKDUCKGO" type="radio" text="DUCKDUCKGO" name="1">DUCKDUCKGO</input> 
+</form>
+</body>
+</html>
